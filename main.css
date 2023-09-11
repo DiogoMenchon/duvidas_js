@@ -73,7 +73,7 @@ ul li img{
     left: 0;
     width: 100%;
     opacity: 0;
-    transition: all ease 5s;
+    transition: all ease .5s;
 }
 
 .overlay-imagem-link a{
@@ -81,6 +81,6 @@ ul li img{
     text-decoration: none;
 }
 
-ul li:hover.overlay-imagem-link{
+ul li:hover .overlay-imagem-link{
     opacity: 1;
 }
